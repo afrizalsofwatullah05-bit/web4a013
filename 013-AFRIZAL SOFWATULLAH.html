@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>013 - AFRIZAL SOFWATULLAH | Pekan 05</title>
+
+<style>
+
+/* 1. CSS Comments */
+/* Ini adalah contoh komentar CSS */
+
+/* 2. CSS Colors */
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+}
+
+/* 3. CSS Backgrounds */
+.bg-demo {
+  background-color: yellow;
+  background-image: url('https://www.w3schools.com/css/img_5terre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+/* 4. CSS Borders */
+.border-demo {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* 5. CSS Margins */
+.margin-demo {
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  background-color: orange;
+}
+
+/* 6. CSS Padding */
+.padding-demo {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-color: lightgreen;
+}
+
+/* 7. CSS Height / Width */
+.hw-demo {
+  height: 100px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+/* 8. CSS Box Model */
+.boxmodel-demo {
+  width: 300px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+/* 9. CSS Outline */
+.outline-demo {
+  border: 2px solid black;
+  outline: 4px dashed red;
+  outline-offset: 5px;
+  padding: 10px;
+}
+
+/* 10. CSS Text */
+.text-demo {
+  color: tomato;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* 11. CSS Fonts */
+.font-demo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* 12. CSS Icons - menggunakan Font Awesome */
+
+/* 13. CSS Links */
+a:link    { color: blue; }
+a:visited { color: purple; }
+a:hover   { color: red; text-decoration: none; }
+a:active  { color: green; }
+
+/* 14. CSS Lists */
+.list-demo ul {
+  list-style-type: square;
+}
+.list-demo ol {
+  list-style-type: upper-roman;
+}
+
+/* 15. CSS Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+
+/* 16. CSS Display */
+.display-demo span {
+  display: block;
+  background-color: coral;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* 17. CSS Max-width */
+.maxwidth-demo {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+/* 18. CSS Position */
+.position-demo {
+  position: relative;
+  height: 100px;
+  background-color: lightgray;
+}
+.position-demo div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: tomato;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* 19. CSS Overflow */
+.overflow-demo {
+  width: 200px;
+  height: 80px;
+  overflow: scroll;
+  background-color: #f1f1f1;
+  padding: 5px;
+}
+
+/* 20. CSS Errors - Contoh error (sengaja salah, browser abaikan) */
+/* .error-contoh { colour: red; font-siz: 20px; } */
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+</head>
+<body>
+
+<h1>Kegiatan Belajar Pekan 05</h1>
+<p>Nama: AFRIZAL SOFWATULLAH | NIM: 013 | Kelas: 2526GnWeb4A</p>
+
+<hr>
+
+<h2>1. CSS Comments</h2>
+<p>Komentar CSS ditulis di antara /* dan */ dan tidak ditampilkan di browser.</p>
+<!-- Ini komentar HTML, dan /* ini komentar CSS */ -->
+
+<hr>
+
+<h2>2. CSS Colors</h2>
+<p style="color:tomato;">Teks warna Tomato (nama warna)</p>
+<p style="color:#3498db;">Teks warna HEX #3498db</p>
+<p style="color:rgb(60,179,113);">Teks warna RGB(60, 179, 113)</p>
+<p style="background-color:dodgerblue; color:white; padding:5px;">Background warna DodgerBlue</p>
+
+<hr>
+
+<h2>3. CSS Backgrounds</h2>
+<div class="bg-demo">
+  <p style="color:white; padding:10px;">Background Image dari W3Schools</p>
+</div>
+<p style="background-color: yellow;">Background Color: Yellow</p>
+
+<hr>
+
+<h2>4. CSS Borders</h2>
+<p style="border: 2px solid red; padding:5px;">Border solid merah</p>
+<p style="border: 3px dashed blue; padding:5px;">Border dashed biru</p>
+<p style="border: 3px dotted green; border-radius:8px; padding:5px;">Border dotted hijau + border-radius</p>
+
+<hr>
+
+<h2>5. CSS Margins</h2>
+<div class="margin-demo">
+  <p>Elemen ini punya margin 20px atas-bawah dan 30px kiri-kanan.</p>
+</div>
+
+<hr>
+
+<h2>6. CSS Padding</h2>
+<div class="padding-demo">
+  <p>Elemen ini punya padding 30px di semua sisi.</p>
+</div>
+
+<hr>
+
+<h2>7. CSS Height / Width</h2>
+<div class="hw-demo">
+  <p>Height: 100px, Width: 50%</p>
+</div>
+
+<hr>
+
+<h2>8. CSS Box Model</h2>
+<div class="boxmodel-demo">
+  <p>Elemen ini: width 300px, padding 10px, border 5px. Total lebar = 300 + 20 + 10 = 330px.</p>
+</div>
+
+<hr>
+
+<h2>9. CSS Outline</h2>
+<div class="outline-demo">
+  <p>Elemen ini punya border hitam dan outline dashed merah dengan offset 5px.</p>
+</div>
+
+<hr>
+
+<h2>10. CSS Text</h2>
+<p class="text-demo">Ini contoh CSS Text — uppercase, underline, tomato, centered</p>
+<p style="text-shadow: 2px 2px 5px gray;">Teks dengan Text Shadow</p>
+
+<hr>
+
+<h2>11. CSS Fonts</h2>
+<p class="font-demo">Ini font Times New Roman, italic, bold, 24px.</p>
+<p style="font-family:Arial, sans-serif; font-size:18px;">Ini font Arial, 18px.</p>
+<p style="font-family:'Courier New', monospace; font-size:18px;">Ini font Courier New (monospace).</p>
+
+<hr>
+
+<h2>12. CSS Icons</h2>
+<p>Menggunakan Font Awesome:</p>
+<i class="fas fa-home" style="font-size:30px; color:navy;"></i>
+<i class="fas fa-envelope" style="font-size:30px; color:tomato;"></i>
+<i class="fas fa-star" style="font-size:30px; color:gold;"></i>
+<i class="fas fa-heart" style="font-size:30px; color:red;"></i>
+<i class="fab fa-github" style="font-size:30px; color:black;"></i>
+
+<hr>
+
+<h2>13. CSS Links</h2>
+<p><a href="https://www.w3schools.com" target="_blank">Kunjungi W3Schools</a></p>
+<p><a href="#" style="background-color:green; color:white; padding:8px 14px; border-radius:5px; text-decoration:none;">Link seperti Button</a></p>
+
+<hr>
+
+<h2>14. CSS Lists</h2>
+<div class="list-demo">
+  <p>Unordered List (square):</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <p>Ordered List (upper-roman):</p>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+</div>
+
+<hr>
+
+<h2>15. CSS Tables</h2>
+<table>
+  <tr>
+    <th>NIM</th>
+    <th>Nama</th>
+    <th>Nilai</th>
+  </tr>
+  <tr>
+    <td>013</td>
+    <td>Afrizal Sofwatullah</td>
+    <td>A</td>
+  </tr>
+  <tr>
+    <td>014</td>
+    <td>Budi Santoso</td>
+    <td>B+</td>
+  </tr>
+  <tr>
+    <td>015</td>
+    <td>Citra Dewi</td>
+    <td>A-</td>
+  </tr>
+</table>
+
+<hr>
+
+<h2>16. CSS Display</h2>
+<div class="display-demo">
+  <span>Span 1 — diubah jadi block</span>
+  <span>Span 2 — diubah jadi block</span>
+  <span>Span 3 — diubah jadi block</span>
+</div>
+<p>
+  <span style="display:inline-block; background:lightblue; padding:5px; margin:3px;">inline-block 1</span>
+  <span style="display:inline-block; background:lightgreen; padding:5px; margin:3px;">inline-block 2</span>
+  <span style="display:inline-block; background:lightyellow; padding:5px; margin:3px;">inline-block 3</span>
+</p>
+
+<hr>
+
+<h2>17. CSS Max-width</h2>
+<div class="maxwidth-demo">
+  <p>Elemen ini punya max-width: 500px dan margin: 0 auto (centered).</p>
+</div>
+
+<hr>
+
+<h2>18. CSS Position</h2>
+<div class="position-demo">
+  <p>Parent (position: relative)</p>
+  <div>Absolute: top-right</div>
+</div>
+<p style="position:relative; top:10px; left:20px; background:lightyellow; display:inline-block; padding:5px;">
+  position: relative, top:10px, left:20px
+</p>
+
+<hr>
+
+<h2>19. CSS Overflow</h2>
+<div class="overflow-demo">
+  <p>Ini teks yang sangat panjang dan akan membuat konten melebihi tinggi div sehingga muncul scrollbar karena overflow diset ke scroll. Lorem ipsum dolor sit amet consectetur.</p>
+</div>
+
+<hr>
+
+<h2>20. CSS Errors</h2>
+<p>Contoh properti CSS yang salah akan diabaikan browser:</p>
+<pre>
+/* SALAH — browser abaikan */
+p {
+  colour: red;    /* seharusnya 'color' */
+  font-siz: 20px; /* seharusnya 'font-size' */
+}
+
+/* BENAR */
+p {
+  color: red;
+  font-size: 20px;
+}
+</pre>
+<p style="color:red; font-size:20px;">Ini teks dengan color dan font-size yang benar!</p>
+
+</body>
+</html>
